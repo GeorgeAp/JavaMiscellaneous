@@ -8,6 +8,7 @@ public class TestJUnit {
             new MessageUtilForJUnitTesting(message);
     @Test
     public void testPrintMessage(){
+        message = "Hello";
         Assert.assertEquals(message, messageUtilForJUnitTesting.printMessage());
     }
 }
