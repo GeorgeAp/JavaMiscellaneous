@@ -2,6 +2,7 @@ public class StringBufferJava {
 
     static String concat(String[] strings){
         String newString = "";
+        // basic approach
         for (int i = 0; i < strings.length; i++){
             newString += strings[i];
         }
