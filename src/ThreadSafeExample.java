@@ -1,16 +1,15 @@
 public class ThreadSafeExample {
 
     public static void main(String[] args){
-        Counter.increment();
+        System.out.println(Counter.increment());
     }
 
-    public synchronized void Counter{
-        private int count = 0;
+    public static class Counter{
 
-        public int increment(){
+        private static int count = 5;
+        public static synchronized int increment(){
             count += count;
             return count;
         }
-
     }
 }
