@@ -13,7 +13,7 @@ public class ExceptionsChallenge {
 
     private void executeAction(Closeable spiderMan, AutoCloseable wolverine) throws Exception{
         try(spiderMan; wolverine){
-            wolverine.close();
+           wolverine.close();
         }
         catch (Exception ignore){
             marvelHero += "?";
