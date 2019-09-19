@@ -8,12 +8,10 @@ public class PlayingCards {
     //}
 
     //public static void cards(){
-        String[] SUITS = {"Clubs", "Diamonds", "Hearts", "Spades"
-        };
+        String[] SUITS = {"Clubs", "Diamonds", "Hearts", "Spades"};
 
         String[] RANKS = {"2", "3", "4", "5", "6", "7", "8", "9", "10",
-                "Jack", "Queen", "King", "Ace"
-        };
+                "Jack", "Queen", "King", "Ace"};
 
         int i = (int) (Math.random()*RANKS.length);
         int j = (int)(Math.random()*SUITS.length);
