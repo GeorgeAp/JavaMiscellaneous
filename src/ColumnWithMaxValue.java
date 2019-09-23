@@ -21,7 +21,7 @@ public class ColumnWithMaxValue {
                     a[i][j] = sc.nextInt();
                 }
             }
-
+            EvalMatrix obj = new EvalMatrix();
             System.out.println();
         }
     }
