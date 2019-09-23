@@ -28,7 +28,7 @@ class TryJava{
         int v = 0;
         int c = 0;
 
-        s = s.replaceAll(" ", "");
+        s = s.replaceAll(" ", ""); // very important, remove spaces else it will count as consonants
         for (int i = 0; i < s.length(); i++){
             char new_s = s.charAt(i);
             if(new_s=='a' || new_s=='e'||new_s=='i' || new_s=='o' || new_s=='u'){
