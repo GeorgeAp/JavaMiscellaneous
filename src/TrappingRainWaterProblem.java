@@ -61,3 +61,18 @@ Output:
 10
 0
  */
+
+/*
+How to think about this solution
+An element of the array can store water if there are higher bars on left and right.
+We can find the amount of water to be stored in every element by finding the heights
+of bars on left and right sides. The idea is to compute the amount of water that
+can be stored in every element of array. For example, consider the array {3, 0, 0, 2, 0, 4},
+we can store three units of water at indexes 1 and 2, and one unit of water at index 3,
+and three units of water at index 4.
+
+A Simple Solution is to traverse every array element and find the highest bars on left and
+right sides. Take the smaller of two heights. The difference between the smaller height and
+height of the current element is the amount of water that can be stored in this array element.
+Time complexity of this solution is O(n2).
+ */
