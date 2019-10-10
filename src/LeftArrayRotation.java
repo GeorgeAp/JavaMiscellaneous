@@ -19,7 +19,7 @@ public class LeftArrayRotation {
         int n = a.length;
         int[] new_a = new int[n];
         for (int i = 0; i < n; i++){
-            int pos = i-d+n;
+            int pos = i + (n - d) % n;
             if ( pos >= n){new_a[pos-n] = a[i];}
             else{new_a[pos] = a[i];}
         }
