@@ -65,7 +65,7 @@ public class TwoDArrays {
 
             bufferedWriter.close();
 
-            scanner.close();
+            //scanner.close();
         }
 
 }
