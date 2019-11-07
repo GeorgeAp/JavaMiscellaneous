@@ -21,18 +21,19 @@ public class MissingInteger {
         int output = 0;
         int[] newArray = new int[n];
         int j = 0;
-        int check = 0;
+        int checkSorted = 0;
+        int checkNegative = 0;
 
         for (int i = 0; i < n-1; i++){
 
             if (A[i]-A[i+1] == -1){
                 newArray[j] = A[i]+1;
                 j += 1;
-                check += 1;
+                checkSorted += 1;
             }
             else if (A[i] < 0){
                 //System.out.print(1);
-                return 1;
+                checkNegative += 1;
             }
 
             else if (A[i]-A[i+1] > 1){
@@ -41,9 +42,14 @@ public class MissingInteger {
             }
         }
 
-        if (check == n-1){
+        if (checkSorted == n-1){
             //System.out.print(A[n-1]+1);
             return A[n-1]+1;
+        }
+
+        if (checkNegative == n-1){
+            //System.out.print(A[n-1]+1);
+            return 1;
         }
 
         Arrays.sort(newArray);
