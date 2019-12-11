@@ -1,4 +1,8 @@
+import org.junit.Test;
+
 import java.util.Scanner;
+
+import static org.junit.Assert.assertEquals;
 
 public class SumIntegersAndCompareIfSumOfOneEqualsTheOther {
 
@@ -31,3 +35,4 @@ public class SumIntegersAndCompareIfSumOfOneEqualsTheOther {
     }
 
 }
+
