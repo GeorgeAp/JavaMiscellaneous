@@ -1,4 +1,4 @@
 # Java Miscellaneous
 #
-Coding practice mostly from GeeksforGeeks
+Coding practice from GeeksforGeeks, Hackerrank
 
