@@ -105,7 +105,6 @@ public class FullHashmapImplementation<K, V> {
 
 
     // Hashmap model
-
     static class Entry<K, V>{
         final K key;
         V value;
