@@ -1,7 +1,6 @@
 /*
 This class implements the interface Lock
  */
-
 import java.util.Random;
 
 public class MyThread extends Thread {
