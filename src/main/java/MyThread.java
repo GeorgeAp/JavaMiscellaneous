@@ -24,6 +24,7 @@ public class MyThread extends Thread {
         Thread.sleep((long) random.nextInt(1000));
     }
 
+    @lombok.SneakyThrows
     public void run(){
         while (true){
             lock.requestCS(myId);
