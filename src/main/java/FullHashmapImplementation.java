@@ -36,7 +36,7 @@ public class FullHashmapImplementation<K, V> {
                 }
             }
 
-            Entry<K, V> entry = new Entry<>(key, value, null);
+            Entry<K, V> entry = new Entry<K, V>(key, value, null);
             int bucket = getHash(key) % getBucketSize();
 
             Entry<K, V> existing = buckets[bucket];
