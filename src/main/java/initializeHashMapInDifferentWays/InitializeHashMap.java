@@ -40,6 +40,7 @@ public class InitializeHashMap {
     public static void main(String[] args) {
         streamMapInitialize().put("Kofi", "Ama");
         streamMapInitializeWithObject().put("Yaw", 1);
+        streamMapInitializeWithObject().put("this", 2);
     }
 
 
