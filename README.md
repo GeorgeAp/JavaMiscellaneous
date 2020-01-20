@@ -1,4 +1,4 @@
 # Java Miscellaneous
 #
-Coding practice from GeeksforGeeks, Hackerrank
+A gym for coding practice 
 
