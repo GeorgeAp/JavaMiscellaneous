@@ -5,12 +5,6 @@ public class ExceptionsChallenge {
 
     static String marvelHero = "";
 
-    public static void main(String... marvel) throws Exception{
-        Logan logan = new Logan();
-        new ExceptionsChallenge().executeAction(new PeterParker(), logan);
-        System.out.println(marvelHero + logan.wolverineCloseCount);
-    }
-
     private void executeAction(Closeable spiderMan, AutoCloseable wolverine) throws Exception{
         try(spiderMan; wolverine){
            wolverine.close();
@@ -38,5 +32,11 @@ public class ExceptionsChallenge {
                 throw new IOException();
             }
         }
+    }
+
+    public static void main(String[] args) throws Exception{
+        Logan logan = new Logan();
+        new ExceptionsChallenge().executeAction(new PeterParker(), logan);
+        System.out.println(marvelHero + logan.wolverineCloseCount);
     }
 }
