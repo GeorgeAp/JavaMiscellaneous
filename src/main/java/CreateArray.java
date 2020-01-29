@@ -1,6 +1,6 @@
 //import java.math.*;
 
-public class create_array {
+public class CreateArray {
 
     public static void main(String[] arg){
         int n = 5;
