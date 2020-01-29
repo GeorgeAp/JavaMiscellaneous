@@ -1,6 +1,6 @@
-// This is me starting out with serious Java
+// Java - back to the basic 101
 
-public class hello_world {
+public class HelloWorld {
     public static  void main(String[] args) {
 
         String myString = "Hello world";
