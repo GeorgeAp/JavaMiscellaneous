@@ -1,4 +1,4 @@
 # Java Miscellaneous
 #
-A gym for coding practice 
+A gym for Java coding practice 
 
