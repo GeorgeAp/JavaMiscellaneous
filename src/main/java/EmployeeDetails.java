@@ -3,6 +3,12 @@ public class EmployeeDetails {
     private double monthlySalary;
     private int age;
 
+    public EmployeeDetails(String name, double monthlySalary, int age) {
+        this.name = name;
+        this.monthlySalary = monthlySalary;
+        this.age = age;
+    }
+
     public String getName(){
         return name;
     }
