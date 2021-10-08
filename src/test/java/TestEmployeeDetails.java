@@ -4,7 +4,7 @@ import org.junit.Test;
 public class TestEmployeeDetails {
 
     EmployeeBusinessLogic employeeBusinessLogic = new EmployeeBusinessLogic();
-    EmployeeDetails employee = new EmployeeDetails();
+    EmployeeDetails employee = new EmployeeDetails("Gyamfuah", 1150, 23);
 
     // test for appraisal
     @Test

@@ -23,7 +23,7 @@ public class MyThread extends Thread {
         System.out.println(myId + " is in CS");
         Thread.sleep((long) random.nextInt(1000));
     }
-
+    /*
     @lombok.SneakyThrows
     public void run(){
         while (true){
@@ -33,6 +33,8 @@ public class MyThread extends Thread {
             nonCriticalSection();
         }
     }
+    
+     */
 
     public static void main(String[] args) throws Exception{
         MyThread thread[];
