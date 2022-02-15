@@ -1,0 +1,8 @@
+header:
+  license:
+    spdx-id: Apache-2.0
+
+  paths: 
+    - 'src/main/java/simpleSortAlogrithms/**'  
+
+  comment: on-failure
