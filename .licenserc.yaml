@@ -5,4 +5,4 @@ header:
   paths: 
     - 'src/main/java/simpleSortAlogrithms/**'  
 
-  comment: on-failure
+  comment: never
